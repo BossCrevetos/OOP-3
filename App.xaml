@@ -1,0 +1,9 @@
+﻿<Application x:Class="OOP_3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:OOP_3.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converters:CellToColorConverter x:Key="CellToColorConverter"/>
+    </Application.Resources>
+</Application>
