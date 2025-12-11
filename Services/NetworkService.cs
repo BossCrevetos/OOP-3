@@ -28,7 +28,7 @@ namespace OOP_3.Services
             };
         }
 
-        public async void ConnectToServer(string ip = "127.0.0.1", int port = 8888)
+        public async void ConnectToServer(string ip = "192.168.0.8", int port = 8888)
         {
             try
             {
